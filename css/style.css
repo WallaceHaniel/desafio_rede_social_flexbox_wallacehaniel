@@ -1,0 +1,63 @@
+body{
+    font-family: 'Raleway';
+    background-color: silver;
+}
+
+
+.caixa-de-fundo{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px;
+    
+}
+
+.caixa-principal{
+    width: 40%;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    /* padding: 15px 0px 5px 0px; */
+    margin-left: 100px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+
+.card-perfil{
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+}
+
+.caixa-nome{
+    flex-direction: column;
+    display: flex;
+    width: 45%;
+   
+}
+
+.foto-perfil{
+    width: 90%;
+    text-align: left;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.icones-rede-social{
+    padding: 5px;
+    width: 50px;
+}
+
+.botao{
+    padding: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+}
